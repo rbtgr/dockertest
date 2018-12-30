@@ -1,6 +1,9 @@
 # step1
 FROM ubuntu:latest
 
+# Maintainer
+LABEL maintainer "rbtgr"
+
 # step2
 RUN apt-get update && apt-get install -y -q nginx
 
